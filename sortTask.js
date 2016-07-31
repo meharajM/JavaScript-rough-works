@@ -1,3 +1,9 @@
+/*
+	JavaScript program to demonstrate usage of compare function of sort function. 
+	the array will be sorted on the basis of second digit in each element in ascending order if second digit is equal then,
+	on the basis of first digit"
+
+*/
 var list = ['1589 2',"1003 1",'5858 3'];//['taskId priority', 'taskId priority']
 list = list.sort(function(task1,task2){
 	task1 = task1.trim().replace(/  +/g, ' ').split(' ');	
