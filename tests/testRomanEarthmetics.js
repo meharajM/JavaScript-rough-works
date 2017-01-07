@@ -9,13 +9,7 @@ describe("Roman numerics earthmetics",function(){
 							['X','*','X','C'],
 							['I','+','V','IV']
 						];
-		// expect(romanEarthmetics.evaluate('I','V','+')).to.equal('V');
-		// expect(romanEarthmetics.evaluate('XL','X','+')).to.equal('L');
-		// expect(romanEarthmetics.evaluate('C','I','-')).to.equal('XCIX');
-		// expect(romanEarthmetics.evaluate('C', 'X','/')).to.equal('X');
-		// expect(romanEarthmetics.evaluate('X','X','*')).to.equal('C');
-		// expect(romanEarthmetics.evaluate('I','V','+')).to.equal('IV');
-
+		
 		for(var i = 0; i < testCases.length; i++){
 			var testCase = testCases[i];
 			var num1 = testCase[0];
