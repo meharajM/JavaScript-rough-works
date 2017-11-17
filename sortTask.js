@@ -22,4 +22,5 @@ exports.sortTask = function(list){
 };
 
 list = this.sortTask(list);
+
 console.log(list);//showing the tasks accourding to priority or task
